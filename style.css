@@ -1,0 +1,149 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2d2420;
+    background-color: #f8f3ee;
+}
+
+
+/* Navbar */
+header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    color: #6f4e37;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo .logo-second {
+    color: #9e765a;
+    font-size: 22px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2d2420;
+    font-weight: 550;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #6f4e37;
+}
+
+
+/* Home */
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.home-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 430px;
+    align-items: center;
+    gap: 80px;
+}
+
+
+/* Home Text */
+.home-text {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.home-text h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.home-text h1 span {
+    color: #6f4e37;
+}
+
+.home-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    max-width: 600px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: transform 0.3s ease,
+                background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background-color: #49302c;
+}
+
+
+/* Profile Image */
+.home-image {
+    display: flex;
+    justify-content: center;
+}
+
+.home-image img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Temporary Sections */
+#skills,
+#projects,
+#contact {
+    min-height: 400px;
+    padding: 80px 40px;
+}
