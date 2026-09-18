@@ -5,7 +5,7 @@ A modern, responsive personal portfolio website developed using HTML, CSS, and J
 This project was developed as part of a frontend development task at CodSoft.
 The main goal is to create a clean, responsive, and user-friendly portfolio website that demonstrates frontend development skills and provides visitors with an easy way to learn about my background, skills, and projects.
 
-✨ Features
+# ✨ Features
 - Responsive design for desktop, tablet, and mobile devices
 - Home section with professional introduction
 - About section with education and personal information
