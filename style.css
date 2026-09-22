@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   color: #2d2420;
-  background-color: #f8f3ee;
+  background-color: #f0e8e1;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -569,6 +569,13 @@ header {
   min-height: 20px;
 }
 
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e9d5c4;
+  font-size: 14px;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .skills-container {
@@ -600,13 +607,13 @@ header {
 
 /* Mobile */
 @media (max-width: 600px) {
-   .navbar {
+  .navbar {
     flex-direction: column;
     padding: 18px 20px;
     gap: 15px;
   }
 
-   .logo {
+  .logo {
     font-size: 26px;
   }
 
