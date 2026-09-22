@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mamata | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -19,11 +23,13 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
+    <!-- Home -->
     <section id="home" class="home">
       <div class="home-content">
         <div class="home-text">
@@ -31,9 +37,8 @@
           <h2>BCA Graduate | QA & Frontend Development</h2>
           <p>
             I build user-friendly web experiences and focus on creating
-            reliable, <br />
-            well-tested software through frontend development and quality
-            assurance.
+            reliable, well-tested software through frontend development and
+            quality assurance.
           </p>
           <a href="#projects" class="btn">View My Projects</a>
         </div>
@@ -43,6 +48,7 @@
       </div>
     </section>
 
+    <!-- About -->
     <section id="about" class="section">
       <div class="container">
         <div class="section-heading">
@@ -91,6 +97,7 @@
       </div>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="section">
       <div class="section-title">
         <h2>My Skills</h2>
@@ -140,6 +147,7 @@
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="section">
       <div class="container">
         <div class="section-heading">
@@ -150,6 +158,13 @@
         <div class="projects-container">
           <div class="project-card">
             <div class="project-body">
+              <a href="images/QR Attendance.png" target="_blank">
+                <img
+                  src="images/QR Attendance.png"
+                  alt="QR Attendance System"
+                  class="project-image"
+                />
+              </a>
               <h3>QR Attendance System</h3>
 
               <p>
@@ -177,23 +192,29 @@
 
           <div class="project-card">
             <div class="project-body">
+              <a href="images/portfolio.png" target="_blank">
+                <img
+                  src="images/portfolio.png"
+                  alt="Personal Portfolio"
+                  class="project-image"
+                />
+              </a>
               <h3>Personal Portfolio</h3>
-
               <p>
-                A responsive personal portfolio website created using HTML and
-                CSS to showcase my professional profile, technical skills,
-                projects, education, and experience.
+                A responsive personal portfolio website created using HTML, CSS,
+                and JavaScript to showcase my professional profile, technical
+                skills, projects, education, and experience.
               </p>
 
               <div class="project-tags">
                 <span>HTML</span>
                 <span>CSS</span>
-                <span>Responsive</span>
+                <span>JavaScript</span>
               </div>
 
               <div class="project-links">
                 <a
-                  href="https://github.com/mamatakhanal/Syntecxhub_Portfolio"
+                  href="https://github.com/mamatakhanal/CodSoft_Portfolio"
                   target="_blank"
                 >
                   View Project →
@@ -204,8 +225,14 @@
 
           <div class="project-card">
             <div class="project-body">
+              <a href="images/automationtesting.png" target="_blank">
+                <img
+                  src="images/automationtesting.png"
+                  alt="Test Automation"
+                  class="project-image"
+                />
+              </a>
               <h3>Playwright Test Automation</h3>
-
               <p>
                 An automated testing project using Playwright to test web
                 application functionality, including user interactions, form
@@ -232,8 +259,147 @@
       </div>
     </section>
 
-    <!-- <section id="contact">
-        <h2>Contact</h2>
-    </section>  -->
+    <!-- Resume -->
+    <section id="resume" class="resume-section">
+      <div class="resume-container">
+        <div class="section-heading">
+          <h2>My Resume</h2>
+          <p>
+            View or download my resume to learn more about my skills and
+            experience.
+          </p>
+        </div>
+
+        <div class="resume-content">
+          <a
+            href="resume/Mamata_Khanal_Frontend_Resume.pdf"
+            target="_blank"
+            class="resume-btn"
+          >
+            View Resume
+          </a>
+
+          <a
+            href="resume/Mamata_Khanal_Frontend_Resume.pdf"
+            download
+            class="resume-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="section-heading">
+          <h2>Contact Me</h2>
+          <p>
+            Have a question, opportunity, or project in mind? Feel free to get
+            in touch with me.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+
+            <p class="contact-intro">
+              I am open to internship and entry-level opportunities in Frontend
+              Development and QA Testing.
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:mamatakhanal08@gmail.com">
+                  mamatakhanal08@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:9744229321"> 9744229321 </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Kathmandu, Nepal</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-box">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+                <small class="error-message" id="nameError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+                <small class="error-message" id="emailError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Enter subject"
+                />
+                <small class="error-message" id="subjectError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="6"
+                  placeholder="Write your message..."
+                ></textarea>
+                <small class="error-message" id="messageError"></small>
+              </div>
+
+              <button type="submit" class="contact-btn">Send Message</button>
+
+              <p id="formSuccess" class="success-message"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS link -->
+    <script src="script.js"></script>
   </body>
 </html>
